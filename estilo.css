@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243,243);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    width: 30px;
+    height: 100vh;
+}
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100rem;
+    padding: 9rem;
+    
+}
+.instagram-continue{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid lightgrey;
+}
+.group:nth-child(1){
+    min-height: 19rem;
+    margin-top: 20px;
+}
+.instagram-logo img{
+    width: 200px;
+}
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.profile-photo img {
+    height: 8rem;
+}
+.instagram-login{
+    background-color: #0095f6;
+    color:white;
+    border-radius: 4px;
+
+}
+.iinstagram-logout{
+    color: #0095f6;
+    margin-top: 19rem;
+}
+.not-account{
+    color: rgb(160,160,160);
+}
+.link-blue{
+    color: #0095f6;
+
+}
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:2rem 0;
+}
+.dowload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+.app-download:nth-child(1){
+    flex-direction: column;
+    background-image: url('./logo_apple.png');
+    
+}
+.app-download:nth-child(2){
+    flex-direction: column;
+    background-image: url('./logo_googleplay.png');
+}
